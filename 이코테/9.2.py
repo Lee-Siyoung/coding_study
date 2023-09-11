@@ -2,7 +2,7 @@ from sys import stdin
 import heapq
 input=int(stdin.readline())
 INF=int(1e9)
-
+ 
 n,m=map(int,stdin.readline().split())
 start=int(stdin.readline())
 graph=[[] for i in range(n+1)]
